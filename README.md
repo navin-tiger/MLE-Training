@@ -16,3 +16,5 @@ The following techniques have been used:
 
 ## To excute the script
 python < scriptname.py >
+1) Install all libraries like numpy, pandas, matplotlib, sklearn 
+2) Run python script ( python nonstandardcode.py)
