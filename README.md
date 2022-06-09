@@ -14,6 +14,11 @@ The following techniques have been used:
  - Multiple sampling techinuqies are evaluated. The data set is split into train and test.
  - All the above said modelling techniques are tried and evaluated. The final metric used to evaluate is mean squared error.
 
+## Create and environment using env.yml file 
+1) create new environment using conda and activate it 
+2) Run this command to get env.yml (conda env export>environment.yml)
+2) Activate environment by this command (conda activate <env-name>)
+
 ## To excute the script
 python < scriptname.py >
 1) Install all libraries like numpy, pandas, matplotlib, sklearn 
