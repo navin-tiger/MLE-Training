@@ -18,6 +18,7 @@ The following techniques have been used:
 1) create new environment using conda and activate it 
 2) Run this command to get env.yml (conda env export>environment.yml)
 2) Activate environment by this command (conda activate <env-name>)
+ 
 ## To excute the script
 python < scriptname.py >
 1) Install all libraries like numpy, pandas, matplotlib, sklearn 
