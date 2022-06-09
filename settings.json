@@ -3,7 +3,12 @@
     "git.confirmSync": false,
     "editor.formatOnSave": true,
     "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--line-length=79"
+    ],
     "editor.codeActionsOnSave": {
         "source.organizeImports": true
-    }
+    },
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true
 }
