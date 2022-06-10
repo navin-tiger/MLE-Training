@@ -14,12 +14,14 @@ The following techniques have been used:
  - Multiple sampling techinuqies are evaluated. The data set is split into train and test.
  - All the above said modelling techniques are tried and evaluated. The final metric used to evaluate is mean squared error.
 
-## Create and environment using env.yml file 
-1) create new environment using conda and activate it 
-2) Run this command to get env.yml (conda env export>environment.yml)
-2) Activate environment by this command (conda activate <env-name>)
-
 ## To excute the script
 python < scriptname.py >
-1) Install all libraries like numpy, pandas, matplotlib, sklearn 
-2) Run python script ( python nonstandardcode.py)
+ 
+## To run the code
+- we have to create an environment from env.yml file which is attached in this repository.
+- First we have to download that file and save it in working directory.
+- "conda env create -f environment.yml" Type this command in the terminal.
+- Now we can see newly created environment by typing the command "conda env list".
+- Activate the environment -- "conda activate <env name>"
+- Now execute the python script (python nonstandardcode.py).
+
