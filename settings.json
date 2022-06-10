@@ -6,9 +6,12 @@
     "python.formatting.blackArgs": [
         "--line-length=79"
     ],
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingImports": "none"
+    },
     "editor.codeActionsOnSave": {
         "source.organizeImports": true
     },
     "python.linting.flake8Enabled": true,
-    "python.linting.enabled": true
+    "python.linting.enabled": true,
 }
