@@ -6,12 +6,14 @@
     "python.formatting.blackArgs": [
         "--line-length=79"
     ],
-    "python.analysis.diagnosticSeverityOverrides": {
-        "reportMissingImports": "none"
-    },
     "editor.codeActionsOnSave": {
         "source.organizeImports": true
     },
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingImports": "none",
+        "reportMissingModuleSource": "none"
+    },
     "python.linting.flake8Enabled": true,
     "python.linting.enabled": true,
+    "python.defaultInterpreterPath": "C:\\ProgramData\\Anaconda3\\python.exe",
 }
